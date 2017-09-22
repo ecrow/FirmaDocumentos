@@ -39,8 +39,8 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 
 <p>Esto desplegará en el IFrame un componente como el siguiente</p>
 <img src="https://github.com/ecrow/FirmaDocumentos/blob/master/images/Widget1.png" alt="Widget 1"/>
-
-
+<hr/>
 <p>El empleado introduce la contraseña con la cual fue registrado en Doc2sign y la cual le fue enviada a su correo electrónico</p>
 
+<p>Si la contraseña es valida el widget desplegara el listado de recibos pendientes por firma correspondientes al empleado</p>
 
