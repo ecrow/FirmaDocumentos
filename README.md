@@ -98,7 +98,7 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 
 <h3>Propiedades</h3>
 
-<h5>getIframeContent</h5>
+<h5>-urlWidget</h5>
 <p>Esta propiedad permite obtener y establecer la URL de acceso al widget</p>
 <p>La clase <code>Firma</code> está configurada para acceder a una URL de prueba por default
   
@@ -110,6 +110,36 @@ El valor del atributo id del elemento IFrame puede ser personalizado
   <code>
   Obtiene la URL del Widget
   Dim url as String = firma.urlWidget 
+  </code>
+</pre>
+
+<h5>-usuarioEmpresa</h5>
+<p>Esta propiedad permite obtener y establecer la clave de acceso al servicio Web</p>
+<p>La clase <code>Firma</code> está configurada para acceder con una clave de prueba por default
+  
+<pre>
+  <code>
+  Cambia la clave de acceso 
+  firma.usuarioEmpresa = "000000"
+  </code>
+  <code>
+  Obtiene la clave de acceso
+  Dim usuario as String = firma.usuarioEmpresa 
+  </code>
+</pre>
+
+<h5>-llaveEmpresa</h5>
+<p>Esta propiedad permite obtener y establecer la llave de acceso al servicio Web</p>
+<p>La clase <code>Firma</code> está configurada para acceder con una llave de prueba por default
+  
+<pre>
+  <code>
+  Cambia la llave de acceso 
+  firma.llaveEmpresa = "000000"
+  </code>
+  <code>
+  Obtiene la llave de acceso 
+  Dim empresa as String = firma.llaveEmpresa 
   </code>
 </pre>
 
