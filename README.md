@@ -30,8 +30,9 @@ Inserta un elemento IFrame con las siguientes características
 El valor del atributo id del elemento IFrame puede ser personalizado
 
 ###### Método getIframeContent
+<p>Para inicializar el Widget es necesario implementar el método <em>getIframeContent</em> de la clase Firma utilizando como parámetro el correo del empleado</p>
 <pre>
   <code>
-    iFrameWidget.Attributes("src") = firma.getIframeContent(txtCorreoConsulta.Text)
+    iFrameWidget.Attributes("src") = firma.getIframeContent("correoEmpleado@correo.com")
   </code>
 </pre>
