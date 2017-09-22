@@ -9,7 +9,7 @@ FirmaDocumento es una librería desarrollada en Visual Basic .Net la cual implem
   <li>Importa <code>FirmaDocumento.dll</code> a tu proyecto</li>
   <li>Configura el archivo Web.config agregando los endpoints correspondientes.</li>
 <ol>
-  
+ 
 # Uso
 
 Crea una instancia de la clase <code>Firma</code>
@@ -45,14 +45,15 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 <p>El empleado introduce la contraseña con la cual fue registrado en Doc2sign y la cual le fue enviada a su correo electrónico</p>
 
 <p>Si la contraseña es valida el widget desplegara el listado de recibos pendientes por firma correspondientes al empleado</p>
+<img src="https://github.com/ecrow/FirmaDocumentos/blob/master/images/Widget2.png" alt="Widget 1"/>
 
 ###### -agregaUsuario
-<p>El método <code>agregaUsuario</code> permite registrar en Doc2sign a un nuevo usuario los parámetros de este método son los siguientes</p>
+<p>El método <code>agregaUsuario</code> permite registrar en Doc2sign a un nuevo usuario, los parámetros de este método son los siguientes</p>
 <ul>
   <li>Noombre del empleado</li>
   <li>Apellido paterno del empleado</li>
   <li>Apellido materno del empleado</li>
-  <li>Correo Electrónico del empleado</li>
+  <li>Correo Electrónico del empleado</li>
   <li>RFC del empleado</li>
 </ul>
 <br/>
@@ -66,5 +67,17 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 
 <p>El resultado de la llamada regresará un mensaje el cual indica si el usuario fue o no registrado con exito</p>
 
+###### -cancelaUsuario
 
+<p>El método <code>cancelaUsuario</code> permite cancelar en Doc2sign a un nuevo usuario, este método utiliza el siguiente parámetro</p>
+<ul>
+  <li>Correo del emplieado</li>
+</ul>
+<br/>
+<pre>
+  <code>
+    Dim msg As String = firma.agregaUsuario("nombre empleado", "apaterno empleado", "amaterno empleado", "correEmpleado@correo.com", "RFC empleado")
+  </code>
+</pre>
 
+<p>El resultado de la llamada regresará un mensaje el cual indica si el usuario fue o no registrado con exito</p>
