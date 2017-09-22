@@ -19,7 +19,7 @@ Crea una instancia de la clase
   </code>
 </pre>
 
-#Configuración del Widget
+# Configuración del Widget
 
 Inserta un elemento IFrame con las siguientes características
 <pre>
