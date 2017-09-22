@@ -12,7 +12,9 @@ FirmaDocumento es una librería desarrollada en Visual Basic .Net la cual implem
   
 #Uso
 
-Crea una instancia de la clase <pre>Firma</pre>
-<code>
-  Dim firma as Firma = new Firma()
-</code>
+Crea una instancia de la clase 
+<pre>
+  <code>
+    Dim Firma as Firma = new Firma()
+  </code>
+</pre>
