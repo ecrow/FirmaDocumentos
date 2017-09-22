@@ -24,7 +24,7 @@ Crea una instancia de la clase <code>Firma</code>
 Inserta un elemento <code>IFrame</code> con las siguientes características
 <pre>
   <code>
-    ```vbnet
+    ```
     <iframe id="iFrameWidget" runat="server" width="100%" height="550px"></iframe>
     ```
   </code>
