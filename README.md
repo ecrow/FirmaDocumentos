@@ -106,11 +106,11 @@ El valor del atributo id del elemento IFrame puede ser personalizado
   <code>
   Cambia la URL del Widget
   firma.urlWidget = "URL del Widget"
-  <code>
+  </code>
   <code>
   Obtiene la URL del Widget
   Dim url as String = firma.urlWidget 
-  <code>
+  </code>
 </pre>
 
 ### WebConfig ###
