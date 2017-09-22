@@ -10,7 +10,7 @@ FirmaDocumento es una librería desarrollada en Visual Basic .Net la cual implem
   <li>Configura el archivo Web.config agregando los endpoints correspondientes.</li>
 <ol>
   
-#Uso
+# Uso
 
 Crea una instancia de la clase 
 <pre>
@@ -18,3 +18,13 @@ Crea una instancia de la clase
     Dim Firma as Firma = new Firma()
   </code>
 </pre>
+
+#Configuración del Widget
+
+Inserta un elemento IFrame con las siguientes características
+<pre>
+  <code>
+    <iframe id="iFrameWidget" runat="server" width="100%" height="550px"></iframe>
+  </code>
+</pre>
+El valor del atributo id del elemento IFrame puede ser personalizado
