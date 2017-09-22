@@ -29,7 +29,7 @@ Inserta un elemento IFrame con las siguientes características
 </pre>
 El valor del atributo id del elemento IFrame puede ser personalizado
 
-#Método getIframeContent
+###### Método getIframeContent
 <pre>
   <code>
     iFrameWidget.Attributes("src") = firma.getIframeContent(txtCorreoConsulta.Text)
