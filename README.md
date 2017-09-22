@@ -76,7 +76,7 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 <br/>
 <pre>
   <code>
-    Dim msg As String = firma.cancelaUsuario("nombre empleado", "apaterno empleado", "amaterno empleado", "correEmpleado@correo.com", "RFC empleado")
+    Dim msg As String = firma.cancelaUsuario("correEmpleado@correo.com")
   </code>
 </pre>
 
@@ -87,20 +87,20 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 <p> Es necesario agregar la siguiente sección al archivo <code>Web.config</code>
 <pre>
   <code>
-  <system.serviceModel>
-    <bindings>
-      <basicHttpBinding>
-        <binding name="BasicHttpBinding_IConnect" />
-        <binding name="BasicHttpsBinding_IConnect">
-          <security mode="Transport" />
-        </binding>
-      </basicHttpBinding>
-    </bindings>
-    <client>
-      <endpoint address="https://test.doc2sign.com/wssimpleconnect/Connect.svc"
+  &ltsystem.serviceModel&lt
+    &ltbindings&lgt
+      &ltbasicHttpBinding&lgt
+        &ltbinding name="BasicHttpBinding_IConnect" /&lgt
+        &ltbinding name="BasicHttpsBinding_IConnect"&lgt
+          &ltsecurity mode="Transport" /&lgt
+        &lt/binding&lgt
+      &lt/basicHttpBinding&lgt
+    &lt/bindings&lgt
+    &ltclient&lgt
+      &ltendpoint address="https://test.doc2sign.com/wssimpleconnect/Connect.svc"
        binding="basicHttpBinding" bindingConfiguration="BasicHttpsBinding_IConnect"
-       contract="IConnect" name="BasicHttpsBinding_IConnect" />
-    </client>
-  </system.serviceModel>
+       contract="IConnect" name="BasicHttpsBinding_IConnect" /&lgt
+    &lt/client&lgt
+  &lt/system.serviceModel&lgt
   </code>
 </pre>
