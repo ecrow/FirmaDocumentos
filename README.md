@@ -47,10 +47,10 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 <p>Si la contraseña es valida el widget desplegara el listado de recibos pendientes por firma correspondientes al empleado</p>
 <img src="https://github.com/ecrow/FirmaDocumentos/blob/master/images/Widget2.png" alt="Widget 1"/>
 
-###### -agregaUsuario
+##### -agregaUsuario
 <p>El método <code>agregaUsuario</code> permite registrar en Doc2sign a un nuevo usuario, los parámetros de este método son los siguientes</p>
 <ul>
-  <li>Noombre del empleado</li>
+  <li>Nombre del empleado</li>
   <li>Apellido paterno del empleado</li>
   <li>Apellido materno del empleado</li>
   <li>Correo Electrónico del empleado</li>
@@ -67,7 +67,7 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 
 <p>El resultado de la llamada regresará un mensaje el cual indica si el usuario fue o no registrado con exito</p>
 
-###### -cancelaUsuario
+##### -cancelaUsuario
 
 <p>El método <code>cancelaUsuario</code> permite cancelar en Doc2sign a un nuevo usuario, este método utiliza el siguiente parámetro</p>
 <ul>
@@ -76,8 +76,8 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 <br/>
 <pre>
   <code>
-    Dim msg As String = firma.agregaUsuario("nombre empleado", "apaterno empleado", "amaterno empleado", "correEmpleado@correo.com", "RFC empleado")
+    Dim msg As String = firma.cancelaUsuario("nombre empleado", "apaterno empleado", "amaterno empleado", "correEmpleado@correo.com", "RFC empleado")
   </code>
 </pre>
 
-<p>El resultado de la llamada regresará un mensaje el cual indica si el usuario fue o no registrado con exito</p>
+<p>El resultado de la llamada regresará un mensaje el cual indica si el usuario fue o no cancelado con exito</p>
