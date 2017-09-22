@@ -96,6 +96,23 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 
 <p>El resultado de la llamada regresará un mensaje el cual indica si el usuario fue o no cancelado con exito</p>
 
+<h3>Propiedades</h3>
+
+<h5>getIframeContent</h5>
+<p>Esta propiedad permite obtener y establecer la URL de acceso al widget</p>
+<p>La clase <code>Firma</code> está configurada para acceder a una URL de prueba por default
+  
+<pre>
+  <code>
+  Cambia la URL del Widget
+  firma.urlWidget = "URL del Widget"
+  <code>
+  <code>
+  Obtiene la URL del Widget
+  Dim url as String = firma.urlWidget 
+  <code>
+</pre>
+
 ### WebConfig ###
 
 <p> Es necesario agregar la siguiente sección al archivo <code>Web.config</code> como parte de la configuración de acceso al Servicio Web</p>
