@@ -24,7 +24,9 @@ Crea una instancia de la clase <code>Firma</code>
 Inserta un elemento <code>IFrame</code> con las siguientes características
 <pre>
   <code>
-    <iframe id="iFrameWidget" runat="server" width="100%" height="550px"></iframe>
+    ```vbnet
+    <iframe id="iFrameWidget" runat="server" width="100%" height="550px"></iframe>
+    ```
   </code>
 </pre>
 El valor del atributo id del elemento IFrame puede ser personalizado
@@ -44,3 +46,4 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 
 <p>Si la contraseña es valida el widget desplegara el listado de recibos pendientes por firma correspondientes al empleado</p>
 
+###### agregaUsuario
