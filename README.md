@@ -76,7 +76,7 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 <br/>
 <pre>
   <code>
-    Dim msg As String = firma.cancelaUsuario("correEmpleado@correo.com")
+    Dim msg As String = firma.cancelaUsuario("correoEmpleado@correo.com")
   </code>
 </pre>
 
