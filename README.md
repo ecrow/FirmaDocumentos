@@ -6,13 +6,13 @@ FirmaDocumento es una librería desarrollada en Visual Basic .Net la cual implem
 # Instalación
 <ol>
   <li>Descarga la mas reciente versión</li>
-  <li>Importa FirmaDocumento.dll a tu proyecto</li>
+  <li>Importa <code>FirmaDocumento.dll</code> a tu proyecto</li>
   <li>Configura el archivo Web.config agregando los endpoints correspondientes.</li>
 <ol>
   
 # Uso
 
-Crea una instancia de la clase 
+Crea una instancia de la clase <code>Firma</code>
 <pre>
   <code>
     Dim Firma as Firma = new Firma()
@@ -21,7 +21,7 @@ Crea una instancia de la clase
 
 # Configuración del Widget
 
-Inserta un elemento IFrame con las siguientes características
+Inserta un elemento <code>IFrame</code> con las siguientes características
 <pre>
   <code>
     <iframe id="iFrameWidget" runat="server" width="100%" height="550px"></iframe>
