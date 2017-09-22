@@ -20,13 +20,13 @@ Crea una instancia de la clase <code>Firma</code>
 </pre>
 
 <p>La clase <code>Firma</code> implementa 3 métodos y 3 propiedades</p>
-##### Métodos 
+<h3> Métodos </h3>
 <ul>
   <li>getIframeContent</li>
   <li>agregaUsuario</li>
   <li>cancelaUsuario</li>
 </ul>
-##### Propiedades
+<h3> Propiedades </h3>
 <ul>
   <li>urlWidget</li>
   <li>usuarioEmpresa</li>
