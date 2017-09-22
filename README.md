@@ -38,7 +38,8 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 </pre>
 
 <p>Esto desplegará en el IFrame un componente como el siguiente</p>
-![pwdwidget](/images/Widget1.jpg)
+![Widget Contraseña](/images/Widget1.png)
+
 
 <p>El empleado introduce la contraseña con la cual fue registrado en Doc2sign y la cual le fue enviada a su correo electrónico</p>
 
