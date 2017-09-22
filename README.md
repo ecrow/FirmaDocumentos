@@ -31,7 +31,7 @@ Inserta un elemento <code>IFrame</code> con las siguientes características
 
 El valor del atributo id del elemento IFrame puede ser personalizado
 ### Métodos ###
-###### -getIframeContent
+##### -getIframeContent
 <p>Para inicializar el atributo <code>src</code> del Widget, es necesario implementar el método <code>getIframeContent</code> de la clase <code>Firma</code> utilizando como parámetro el correo del empleado</p>
 <pre>
   <code>
@@ -81,3 +81,26 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 </pre>
 
 <p>El resultado de la llamada regresará un mensaje el cual indica si el usuario fue o no cancelado con exito</p>
+
+### WebConfig ###
+
+<p> Es necesario agregar la siguiente sección al archivo <code>Web.config</code>
+<pre>
+  <code>
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="BasicHttpBinding_IConnect" />
+        <binding name="BasicHttpsBinding_IConnect">
+          <security mode="Transport" />
+        </binding>
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="https://test.doc2sign.com/wssimpleconnect/Connect.svc"
+       binding="basicHttpBinding" bindingConfiguration="BasicHttpsBinding_IConnect"
+       contract="IConnect" name="BasicHttpsBinding_IConnect" />
+    </client>
+  </system.serviceModel>
+  </code>
+</pre>
