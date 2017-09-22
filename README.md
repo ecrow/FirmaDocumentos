@@ -28,11 +28,16 @@ Inserta un elemento IFrame con las siguientes características
   </code>
 </pre>
 El valor del atributo id del elemento IFrame puede ser personalizado
-
-###### Método getIframeContent
-<p>Para inicializar el Widget es necesario implementar el método <em>getIframeContent</em> de la clase Firma utilizando como parámetro el correo del empleado</p>
+### Métodos ###
+###### getIframeContent
+<p>Para inicializar el atributo <code>src</code> del Widget, es necesario implementar el método <code>getIframeContent</code> de la clase <code>Firma</code> utilizando como parámetro el correo del empleado</p>
 <pre>
   <code>
     iFrameWidget.Attributes("src") = firma.getIframeContent("correoEmpleado@correo.com")
   </code>
 </pre>
+
+<p>Esto desplegará en el IFrame un componente como el siguiente</p>
+<p>El empleado introduce la contraseña con la cual fue registrado en Doc2sign y la cual le fue enviada a su correo electrónico</p>
+
+
