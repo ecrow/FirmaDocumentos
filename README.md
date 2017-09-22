@@ -87,20 +87,20 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 <p> Es necesario agregar la siguiente sección al archivo <code>Web.config</code>
 <pre>
   <code>
-  &ltsystem.serviceModel&lt
-    &ltbindings&lgt
-      &ltbasicHttpBinding&lgt
-        &ltbinding name="BasicHttpBinding_IConnect" /&lgt
-        &ltbinding name="BasicHttpsBinding_IConnect"&lgt
-          &ltsecurity mode="Transport" /&lgt
-        &lt/binding&lgt
-      &lt/basicHttpBinding&lgt
-    &lt/bindings&lgt
-    &ltclient&lgt
+  &ltsystem.serviceModel&gt
+    &ltbindings&gt
+      &ltbasicHttpBinding&gt
+        &ltbinding name="BasicHttpBinding_IConnect" /&gt
+        &ltbinding name="BasicHttpsBinding_IConnect"&gt
+          &ltsecurity mode="Transport" /&gt
+        &lt/binding&gt
+      &lt/basicHttpBinding&gt
+    &lt/bindings&gt
+    &ltclient&gt
       &ltendpoint address="https://test.doc2sign.com/wssimpleconnect/Connect.svc"
        binding="basicHttpBinding" bindingConfiguration="BasicHttpsBinding_IConnect"
-       contract="IConnect" name="BasicHttpsBinding_IConnect" /&lgt
-    &lt/client&lgt
-  &lt/system.serviceModel&lgt
+       contract="IConnect" name="BasicHttpsBinding_IConnect" /&gt
+    &lt/client&gt
+  &lt/system.serviceModel&gt
   </code>
 </pre>
