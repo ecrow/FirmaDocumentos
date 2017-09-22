@@ -84,7 +84,7 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 
 ### WebConfig ###
 
-<p> Es necesario agregar la siguiente sección al archivo <code>Web.config</code>
+<p> Es necesario agregar la siguiente sección al archivo <code>Web.config</code> como parte de la configuración de acceso al Servicio Web</p>
 <pre>
   <code>
   &ltsystem.serviceModel&gt
