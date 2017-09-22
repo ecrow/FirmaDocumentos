@@ -22,13 +22,11 @@ Crea una instancia de la clase <code>Firma</code>
 # Configuración del Widget
 
 Inserta un elemento <code>IFrame</code> con las siguientes características
-<pre>
-  <code>
+
     ```
     <iframe id="iFrameWidget" runat="server" width="100%" height="550px"></iframe>
     ```
-  </code>
-</pre>
+
 El valor del atributo id del elemento IFrame puede ser personalizado
 ### Métodos ###
 ###### getIframeContent
