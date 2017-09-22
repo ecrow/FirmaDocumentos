@@ -19,6 +19,20 @@ Crea una instancia de la clase <code>Firma</code>
   </code>
 </pre>
 
+<p>La clase <code>Firma</code> implementa 3 métodos y 3 propiedades</p>
+###### Métodos 
+<ul>
+  <li>getIframeContent</li>
+  <li>agregaUsuario</li>
+  <li>cancelaUsuario</li>
+</ul>
+###### Propiedades
+<ul>
+  <li>urlWidget</li>
+  <li>usuarioEmpresa</li>
+  <li>llaveEmpresa</li>
+</ul>
+
 # Configuración del Widget
 
 Inserta un elemento <code>IFrame</code> con las siguientes características
