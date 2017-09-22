@@ -4,7 +4,8 @@ FirmaDocumento es una librería desarrollada en Visual Basic .Net la cual implem
 
 
 # Instalación
-
-1.- Descarga la mas reciente versión
-2.- Importa FirmaDocumento.dll a tu proyecto
-3.- Configura el archivo Web.config agregando los endpoints correspondientes.
+<ol>
+  <li>Descarga la mas reciente versión</li>
+  <li>Importa FirmaDocumento.dll a tu proyecto</li>
+  <li>Configura el archivo Web.config agregando los endpoints correspondientes.</li>
+<ol>
