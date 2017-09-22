@@ -47,3 +47,22 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 <p>Si la contraseña es valida el widget desplegara el listado de recibos pendientes por firma correspondientes al empleado</p>
 
 ###### agregaUsuario
+<p>El método <code>agregaUsuario</code> permite registrar en Doc2sign a un nuevo usuario los parámetros de este método son los siguientes</p>
+
+<ul>
+  <li>Noombre del empleado</li>
+  <li>Apellido paterno del empleado</li>
+  <li>Apellido materno del empleado</li>  
+  <li>Correo Electrónico del empleado</li> 
+  <li>RFC del empleado</li>  
+</ul>
+
+<em>Todos los parámetros son de carácter obligatorio</em>
+
+<pre>
+  <code>
+    Dim msg As String = firma.agregaUsuario("nombre empleado", "apaterno empleado", "amaterno empleado", "correEmpleado@correo.com", "RFC empleado")
+  </code>
+</pre>
+
+
