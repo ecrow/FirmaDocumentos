@@ -11,6 +11,12 @@ FirmaDocumento es una librería desarrollada en Visual Basic .Net la cual implem
 </ol>
 
 # Uso
+<p>Importa la clase <code>FirmaDocumento</code></p>
+<pre>
+  <code>
+    Imports FirmaDocumento
+  </code>
+</pre>
 
 Crea una instancia de la clase <code>Firma</code>
 <pre>
