@@ -102,7 +102,9 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 </pre>
 
 <p>El resultado de la llamada regresará un mensaje el cual indica si el usuario fue o no cancelado con exito</p>
+
 ##### -getRecibosPendientes
+
 <p>El método <code>getRecibosPendientes</code> permite obtener el número de recibos que el empleado tiene en estatus de "Pendientes", este método utiliza el siguiente parámetro</p>
 <ul>
   <li>Correo del empleado</li>
