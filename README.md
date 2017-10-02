@@ -31,6 +31,7 @@ Crea una instancia de la clase <code>Firma</code>
   <li>getIframeContent</li>
   <li>agregaUsuario</li>
   <li>cancelaUsuario</li>
+  <li>getRecibosPendientes</li>
 </ul>
 <h3> Propiedades </h3>
 <ul>
