@@ -92,7 +92,7 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 
 <p>El método <code>cancelaUsuario</code> permite cancelar en Doc2sign a un nuevo usuario, este método utiliza el siguiente parámetro</p>
 <ul>
-  <li>Correo del emplieado</li>
+  <li>Correo del empleado</li>
 </ul>
 <br/>
 <pre>
@@ -102,6 +102,19 @@ El valor del atributo id del elemento IFrame puede ser personalizado
 </pre>
 
 <p>El resultado de la llamada regresará un mensaje el cual indica si el usuario fue o no cancelado con exito</p>
+##### -getRecibosPendientes
+<p>El método <code>getRecibosPendientes</code> permite obtener el número de recibos que el empleado tiene en estatus de "Pendientes", este método utiliza el siguiente parámetro</p>
+<ul>
+  <li>Correo del empleado</li>
+</ul>
+<br/>
+<pre>
+  <code>
+    Dim recibosPendientes As Integer = firma.getRecibosPendientes("correoEmpleado@correo.com")
+  </code>
+</pre>
+
+<p>El resultado de la llamada regresará un valor entero indicando el número de recibos que el empleado tiene pendientes por firma, en caso de error este método regresara un valor negativo -1 </p>
 
 <h3>Propiedades</h3>
 
